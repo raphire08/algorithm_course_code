@@ -34,6 +34,11 @@ function countFrequency(nums, value, l, r) {
     return count;
 }
 
+/**
+ * 
+ * @param {Array<number>} nums 
+ * @returns {number}
+ */
 function majority_check(nums) {
     let majority = majority_element(nums, 0, nums.length - 1);
     return majority === -1 ? 0 : 1;
